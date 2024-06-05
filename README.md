@@ -40,3 +40,4 @@ If there are any questions, feel free to contact my email at: Bryan4690@gmail.co
 You can also find me on GitHub at: [BBrantly90](https://www.github.com/BBrantly90)
 
 ## Deployed Application 🚀
+This application is deployed at: https://bbrantly90.github.io/Personal-Blog/
