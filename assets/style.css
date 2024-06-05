@@ -26,3 +26,45 @@ a {
     font-weight: 700;
 }
 
+a:hover {
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+nav {
+    margin-right: 5%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+/* header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+footer {
+    text-align: center;
+    padding: 0.7rem;
+}
+

@@ -11,13 +11,6 @@
     </head>
     <!-- Begining of the body -->
     <body>
-        <button onclick="myFunction()">Toggle dark mode</button>
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-            </script>
         <header>
             <h1 class="logo"><a href="#">My First Blog</a></h1>
             <nav>
@@ -87,6 +80,13 @@
         <!-- Footer Area -->
         <footer>
             <p>@ 2024 My First Blog</p>
+            <button onclick="myFunction()">Toggle dark mode</button>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
         </footer>
         <!-- Javascript file link -->
         <script src="./assets/script.js"></script>
