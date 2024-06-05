@@ -27,7 +27,61 @@
         </header>
 
         <main class="post-container">
-            
+            <div id="createPostModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModal">x</span>
+                    <h2>Create a New Post</h2>
+                    <form id="postForm">
+                        <div class="upper">
+                            <div class="title">
+                                <label class="postheading" for="postTitle">
+                                    Title
+                                </label>
+                                <input type="text" class="postTitle"
+                                id='postTitle' name="postTitle"
+                                autocomplete="off" required>
+                            </div>
+                            <div class="category1">
+                                <label class="postheading" for="postCategory">
+                                    Category
+                                </label>
+                                <input type="text" class="postCategory"
+                                id="postCategory" name="postCategory"
+                                autocomplete="off" required>
+                            </div>
+                        </div>
+                        <label class="postheading" for="postDescription">
+                            Description
+                        </label>
+                        <textarea class="postDescription" id="postDescription"
+                                    name="postDescription" autocomplete="off"
+                                    required>
+                        </textarea>
+                        <button type="submit" id="postSubmitBtn"
+                        class="postSubmitBtn">Post</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Detailing the Modal -->
+            <div id="postDetailModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeDetailModal">
+                        x
+                    </span>
+                    <h1 id="detailTitle"></h1>
+                    <span id="detailDate"></span>
+                    <p id="detailDescription"></p>
+                </div>
+            </div>
+            <div id="postCreatedMessage" class="post-message">
+                Post created successfully!!
+            </div>
         </main>
+        <!-- Footer Area -->
+        <footer>
+            <p>@ 2024 My First Blog</p>
+        </footer>
+        <!-- Javascript file link -->
+        <script src="./assets/script.js"></script>
     </body>
 </html>
